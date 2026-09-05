@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>درباره ما و مانیفست زینو لایف | خودت را بهتر بفهم، زندگی‌ات را بهتر بساز</title>
+  <meta name="description" content="داستان شکل‌گیری، مانیفست علمی، هیئت تحریریه و فلسفه بنیادین پلتفرم روانشناسی و رشد فردی زینو لایف."/>
+  <meta property="og:title" content="درباره ما | زینو لایف"/>
+  <meta property="og:description" content="زینو لایف مرز میان شبه‌علم انگیزشی و روانشناسی بالینی مبتنی بر شواهد است."/>
+
+  <!-- Typography & Icons -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css"/>
+
+  <!-- Tailwind CSS Engine -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "tertiary-fixed": "#eaddff",
+            "on-surface-variant": "#45464c",
+            "error": "#ba1a1a",
+            "inverse-surface": "#2f312f",
+            "outline-variant": "#c6c6cd",
+            "surface-dim": "#dbdad7",
+            "secondary-container": "#a7a5ff",
+            "on-tertiary": "#ffffff",
+            "surface-variant": "#e3e2df",
+            "secondary-fixed-dim": "#c3c0ff",
+            "secondary": "#5654a8",
+            "surface-container-high": "#e9e8e5",
+            "on-tertiary-container": "#9863ff",
+            "surface": "#faf9f6",
+            "secondary-fixed": "#e2dfff",
+            "on-background": "#1a1c1a",
+            "primary-container": "#141b2b",
+            "outline": "#76777d",
+            "on-secondary-container": "#393689",
+            "tertiary-container": "#25005a",
+            "on-tertiary-fixed": "#25005a",
+            "on-secondary": "#ffffff",
+            "on-tertiary-fixed-variant": "#5a00c6",
+            "surface-bright": "#faf9f6",
+            "on-primary-fixed-variant": "#404758",
+            "on-secondary-fixed-variant": "#3e3c8f",
+            "surface-container": "#efeeeb",
+            "inverse-on-surface": "#f2f1ee",
+            "on-error-container": "#93000a",
+            "primary": "#000000",
+            "surface-container-low": "#f4f3f0",
+            "on-surface": "#1a1c1a",
+            "error-container": "#ffdad6",
+            "on-primary-container": "#7d8497",
+            "surface-container-lowest": "#ffffff",
+            "on-primary": "#ffffff",
+            "inverse-primary": "#c0c6db",
+            "surface-tint": "#575e70",
+            "primary-fixed-dim": "#c0c6db",
+            "on-error": "#ffffff",
+            "tertiary-fixed-dim": "#d2bbff",
+            "on-primary-fixed": "#141b2b",
+            "surface-container-highest": "#e3e2df",
+            "background": "#faf9f6",
+            "primary-fixed": "#dce2f7",
+            "on-secondary-fixed": "#100563",
+            "tertiary": "#000000"
+          },
+          fontFamily: {
+            "headline-lg": ["Plus Jakarta Sans", "Vazirmatn", "sans-serif"],
+            "headline-xl": ["Plus Jakarta Sans", "Vazirmatn", "sans-serif"],
+            "body-lg": ["Be Vietnam Pro", "Vazirmatn", "sans-serif"],
+            "body-md": ["Be Vietnam Pro", "Vazirmatn", "sans-serif"],
+            "label-lg": ["Plus Jakarta Sans", "Vazirmatn", "sans-serif"],
+            "body-sm": ["Be Vietnam Pro", "Vazirmatn", "sans-serif"],
+            "label-sm": ["Plus Jakarta Sans", "Vazirmatn", "sans-serif"],
+            "headline-sm": ["Plus Jakarta Sans", "Vazirmatn", "sans-serif"],
+            "headline-md": ["Plus Jakarta Sans", "Vazirmatn", "sans-serif"]
+          },
+          spacing: {
+            "space-2xs": "0.25rem", "space-xs": "0.5rem", "space-sm": "0.75rem", "space-md": "1rem",
+            "space-lg": "1.5rem", "space-xl": "2rem", "space-2xl": "3rem", "space-3xl": "4rem", "space-4xl": "6rem",
+            "margin-mobile": "1.25rem", "margin-tablet": "2rem", "margin-desktop": "3.5rem"
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+
+  <!-- ========================================================
+       TOP NAVIGATION BAR
+       ======================================================== -->
+  <header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+    <div class="h-20 max-w-[1380px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-md">
+      
+      <!-- Brand Identity -->
+      <div class="flex items-center gap-space-md shrink-0">
+        <!-- Mobile Menu Trigger -->
+        <button class="xl:hidden p-2 rounded-xl text-on-surface hover:bg-surface-container" onclick="toggleMobileMenu(true)" aria-label="منوی سایت">
+          <span class="material-symbols-outlined text-[26px]">menu</span>
+        </button>
+
+        <a href="index.html" class="flex flex-col text-right group">
+          <span class="font-headline-sm font-bold text-on-surface tracking-tight group-hover:text-secondary transition-colors">زینو لایف</span>
+          <span class="font-label-sm text-label-sm text-on-surface-variant">خودت را بهتر بفهم، زندگی‌ات را بهتر بساز</span>
+        </a>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="hidden xl:flex items-center gap-space-xs bg-surface-container-low px-space-xs py-space-2xs rounded-full shadow-[0_1px_4px_rgba(0,0,0,0.02)]">
+        <a href="index.html" class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all">صفحه اصلی</a>
+        <a href="index.html#audio-experience" class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all">پادکست‌ها</a>
+        <a href="products.html" class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all">کتاب‌ها و فروشگاه</a>
+        <a href="index.html#articles" class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all">مقالات و مجله</a>
+        <a href="about.html" class="px-space-md py-space-xs transition-all bg-primary-container text-on-primary font-bold rounded-full shadow-[0_2px_8px_rgba(0,0,0,0.08)]">درباره ما</a>
+        <a href="contact.html" class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all">تماس و پشتیبانی</a>
+      </nav>
+
+      <!-- Utility & Actions -->
+      <div class="flex items-center gap-space-sm">
+        <div class="relative hidden md:flex items-center">
+          <input class="global-search-input w-56 lg:w-64 pl-space-md pr-space-xl py-space-xs bg-surface-container-low rounded-full font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary transition-all" placeholder="جستجو در مقالات، کتاب‌ها..." type="text"/>
+          <span class="material-symbols-outlined absolute right-space-sm text-outline text-[18px] pointer-events-none">search</span>
+        </div>
+
+        <!-- Cart Button -->
+        <a class="relative p-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors flex items-center justify-center cursor-pointer" data-path="cart" href="#" onclick="toggleCartDrawer(true); return false;" aria-label="سبد خرید">
+          <span class="material-symbols-outlined text-[24px]">shopping_bag</span>
+          <span class="cart-badge absolute -top-0.5 -left-0.5 min-w-4 h-4 px-1 bg-secondary text-on-secondary rounded-full font-label-sm text-[10px] flex items-center justify-center font-bold">۱</span>
+        </a>
+
+        <!-- Telegram Bot Link -->
+        <a class="hidden sm:inline-flex items-center gap-1 px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface hover:text-secondary transition-colors" href="https://t.me/Zinoolifestorebot" rel="noopener noreferrer" target="_blank">
+          <span class="material-symbols-outlined text-[18px] text-secondary">send</span>
+          <span>ربات تلگرام</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-backdrop" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden" onclick="toggleMobileMenu(false)"></div>
+  <div id="mobile-nav-drawer" class="fixed inset-y-0 right-0 w-72 bg-surface-container-lowest z-50 shadow-2xl transform translate-x-full transition-transform duration-300 flex flex-col justify-between p-6 text-right">
+    <div>
+      <div class="flex items-center justify-between pb-6 border-b border-outline-variant/30">
+        <div>
+          <span class="font-headline-sm font-bold text-on-surface">زینو لایف</span>
+          <span class="block text-xs text-on-surface-variant mt-0.5">خودت را بهتر بفهم، زندگی‌ات را بهتر بساز</span>
+        </div>
+        <button onclick="toggleMobileMenu(false)" class="p-2 rounded-full hover:bg-surface-container text-on-surface">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+
+      <nav class="flex flex-col gap-2 mt-6">
+        <a href="index.html" class="px-4 py-3 rounded-2xl hover:bg-surface-container text-on-surface font-semibold flex items-center justify-between transition-colors">
+          <span>صفحه اصلی</span>
+          <span class="material-symbols-outlined text-sm">home</span>
+        </a>
+        <a href="products.html" class="px-4 py-3 rounded-2xl hover:bg-surface-container text-on-surface font-semibold flex items-center justify-between transition-colors">
+          <span>کتاب‌ها و فروشگاه</span>
+          <span class="material-symbols-outlined text-sm">auto_stories</span>
+        </a>
+        <a href="index.html#audio-experience" class="px-4 py-3 rounded-2xl hover:bg-surface-container text-on-surface font-semibold flex items-center justify-between transition-colors">
+          <span>پادکست‌های تحلیلی</span>
+          <span class="material-symbols-outlined text-sm">headphones</span>
+        </a>
+        <a href="about.html" class="px-4 py-3 rounded-2xl bg-primary-container text-on-primary font-bold flex items-center justify-between">
+          <span>درباره ما</span>
+          <span class="material-symbols-outlined text-sm">info</span>
+        </a>
+        <a href="contact.html" class="px-4 py-3 rounded-2xl hover:bg-surface-container text-on-surface font-semibold flex items-center justify-between transition-colors">
+          <span>تماس و پشتیبانی</span>
+          <span class="material-symbols-outlined text-sm">support_agent</span>
+        </a>
+      </nav>
+    </div>
+
+    <div class="pt-6 border-t border-outline-variant/30 flex flex-col gap-3">
+      <a href="https://t.me/Zinoolifestorebot" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-full bg-secondary text-on-secondary font-bold text-center flex items-center justify-center gap-2 shadow-md">
+        <span class="material-symbols-outlined text-lg">send</span>
+        <span>ورود به ربات تلگرام</span>
+      </a>
+      <button onclick="toggleMobileMenu(false); toggleCartDrawer(true);" class="w-full py-2.5 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface text-sm font-semibold flex items-center justify-center gap-2">
+        <span class="material-symbols-outlined text-lg">shopping_bag</span>
+        <span>مشاهده سبد خرید</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MAIN ABOUT CONTENT
+       ======================================================== -->
+  <main class="w-full pt-28 pb-space-4xl bg-surface min-h-screen text-right">
+    <div class="max-w-[1380px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+
+      <!-- Hero Header -->
+      <section class="relative bg-primary-container text-on-primary rounded-3xl p-space-2xl lg:p-space-3xl overflow-hidden mb-space-3xl shadow-2xl">
+        <div class="absolute -right-24 -top-24 w-96 h-96 bg-secondary/30 rounded-full blur-[110px] pointer-events-none"></div>
+        <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-[#D4A574]/20 rounded-full blur-[90px] pointer-events-none"></div>
+
+        <div class="relative z-10 max-w-3xl">
+          <div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-lowest/10 backdrop-blur-md text-secondary-fixed mb-space-md">
+            <span class="material-symbols-outlined text-base">spa</span>
+            <span class="font-label-md text-xs">مانیفست و رسالت ما</span>
+          </div>
+          <h1 class="font-headline-xl text-headline-lg lg:text-headline-xl font-extrabold leading-tight mb-space-md">
+            داستان زینو لایف؛ <br/>
+            رویشی صبورانه از اعماق تله‌ها به سوی نور آگاهی
+          </h1>
+          <p class="font-body-xl text-primary-fixed-dim leading-relaxed">
+            ما زینو لایف را ساختیم چون خسته بودیم از شعارهای هیجانی زودگذر و فرمول‌های یک‌شبه موفقیت. باور ما این است که ذهن انسان برای التیام و شکوفایی، محتاج فهم عمیق بالینی، تمرین‌های واقع‌بینانه و همراهی صادقانه است.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section: The Sunflower Philosophy -->
+      <section class="mb-space-3xl" id="manifesto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center bg-surface-container-lowest p-space-xl lg:p-space-2xl rounded-3xl border border-outline-variant/30 shadow-sm">
+          
+          <div class="lg:col-span-5 flex flex-col items-center text-center p-space-lg bg-surface-container-low rounded-3xl">
+            <div class="w-32 h-32 rounded-full bg-[#D4A574]/20 flex items-center justify-center text-6xl mb-space-md shadow-inner animate-ambient-glow">
+              🌻
+            </div>
+            <h2 class="font-headline-md font-bold text-on-surface">تمثیل گل آفتابگردان</h2>
+            <span class="font-label-sm text-[#B27F47] mt-1 font-semibold">نماد تمرکز توجه بر روشنایی</span>
+            <p class="font-body-sm text-on-surface-variant mt-space-sm leading-relaxed text-right">
+              همان‌طور که آفتابگردان پیوسته در جهت تابش خورشید حرکت می‌کند و بدون نور می‌افسرد، ذهن ما نیز متناسب با آنچه بدان توجه می‌کنیم شکل می‌گیرد. اگر توجهمان را به سرزنش، ترس و قضاوت بسپاریم پژمرده می‌شویم؛ اما با معطوف کردن آگاهی به الگوهای رفتاری، حقیقت خویشتن و پذیرش نامشروط، آرام‌آرام به اوج شکوفایی می‌رسیم.
+            </p>
+          </div>
+
+          <div class="lg:col-span-7 flex flex-col gap-space-md">
+            <div class="inline-flex items-center gap-1 text-secondary font-bold text-xs">
+              <span class="material-symbols-outlined text-sm">psychology</span>
+              <span>روانشناسی مبتنی بر شواهد (EBP)</span>
+            </div>
+            <h3 class="font-headline-lg font-bold text-on-surface leading-snug">
+              مرز روشن میان شبه‌علم انگیزشی و علم اصیل روانشناسی
+            </h3>
+            <p class="font-body-md text-on-surface-variant leading-relaxed">
+              روانشناسی زینو لایف برگرفته از جدیدترین دستاوردهای حوزه <strong>طرحواره‌درمانی (Schema Therapy)</strong>، <strong>درمان شناختی رفتاری (CBT)</strong>، و <strong>درمان متمرکز بر شفقت (CFT)</strong> است. ما هیچ کتاب یا پادکستی را بدون بررسی همه‌جانبه متدولوژی علمی آن منتشر نمی‌کنیم.
+            </p>
+            <p class="font-body-md text-on-surface-variant leading-relaxed">
+              هدف ما فروش حس خوب مقطعی نیست؛ هدف ما توانمندسازی شما برای تبدیل شدن به درمانگر خویشتن و ساختن ساختار روانی استوار در برابر ناملایمات زیست اجتماعی است.
+            </p>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-space-sm">
+              <div class="p-3 bg-surface-container-low rounded-2xl text-center">
+                <span class="font-headline-sm font-bold text-secondary block">+۵۰K</span>
+                <span class="text-xs text-outline">شنونده فعال</span>
+              </div>
+              <div class="p-3 bg-surface-container-low rounded-2xl text-center">
+                <span class="font-headline-sm font-bold text-secondary block">+۱۲۰</span>
+                <span class="text-xs text-outline">ساعت تحلیل بالینی</span>
+              </div>
+              <div class="p-3 bg-surface-container-low rounded-2xl text-center">
+                <span class="font-headline-sm font-bold text-secondary block">۱۵+</span>
+                <span class="text-xs text-outline">کتاب منتخب منتشرشده</span>
+              </div>
+              <div class="p-3 bg-surface-container-low rounded-2xl text-center">
+                <span class="font-headline-sm font-bold text-secondary block">۲۴/۷</span>
+                <span class="text-xs text-outline">پشتیبانی تلگرام</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Section: 4 Core Pillars -->
+      <section class="mb-space-3xl">
+        <div class="text-center max-w-2xl mx-auto mb-space-2xl">
+          <span class="text-secondary font-bold text-xs">اصول تغییرناپذیر ما</span>
+          <h2 class="font-headline-xl font-bold text-on-surface mt-1">چهار ستون هویت زینو لایف</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+          <div class="p-space-xl rounded-3xl bg-surface-container-lowest border border-outline-variant/30 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-secondary/10 text-secondary flex items-center justify-center mb-space-md">
+                <span class="material-symbols-outlined text-2xl">menu_book</span>
+              </div>
+              <h3 class="font-headline-sm font-bold text-on-surface mb-2">۱. خلوص و دقت علمی</h3>
+              <p class="font-body-sm text-on-surface-variant leading-relaxed">تکیه صددرصدی بر منابع آکادمیک معتبر و رد قاطع پندارهای شبه‌علمی و مثبت‌اندیشی آسیب‌زا.</p>
+            </div>
+          </div>
+
+          <div class="p-space-xl rounded-3xl bg-surface-container-lowest border border-outline-variant/30 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-[#D4A574]/20 text-[#B27F47] flex items-center justify-center mb-space-md">
+                <span class="material-symbols-outlined text-2xl">self_improvement</span>
+              </div>
+              <h3 class="font-headline-sm font-bold text-on-surface mb-2">۲. شفقت و پذیرش بی‌قیدوشرط</h3>
+              <p class="font-body-sm text-on-surface-variant leading-relaxed">دیدن نقص‌ها و آسیب‌های روانی بدون تحقیر و خجالت؛ به عنوان گام اول درمان و بازسازی هویت.</p>
+            </div>
+          </div>
+
+          <div class="p-space-xl rounded-3xl bg-surface-container-lowest border border-outline-variant/30 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center mb-space-md">
+                <span class="material-symbols-outlined text-2xl">headphones</span>
+              </div>
+              <h3 class="font-headline-sm font-bold text-on-surface mb-2">۳. تجربه صوتی غنی و عمیق</h3>
+              <p class="font-body-sm text-on-surface-variant leading-relaxed">تولید پادکست‌های استودیویی با کیفیت صوتی بی‌نظیر برای تجربه آرامش ذهن در ترافیک یا خلوت شبانه.</p>
+            </div>
+          </div>
+
+          <div class="p-space-xl rounded-3xl bg-surface-container-lowest border border-outline-variant/30 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-space-md">
+                <span class="material-symbols-outlined text-2xl">support_agent</span>
+              </div>
+              <h3 class="font-headline-sm font-bold text-on-surface mb-2">۴. همراهی نزدیک تلگرام</h3>
+              <p class="font-body-sm text-on-surface-variant leading-relaxed">ارتباط مستقیم، پاسخ سریع به ابهامات کتاب‌ها و ارسال آنی سفارش‌ها بدون واسطه‌های سردرگم‌کننده.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Editorial Board & Team -->
+      <section class="mb-space-3xl">
+        <div class="text-center max-w-2xl mx-auto mb-space-2xl">
+          <span class="text-secondary font-bold text-xs">انسان‌های پشت پرده صداها و واژه‌ها</span>
+          <h2 class="font-headline-xl font-bold text-on-surface mt-1">تیم علمی و تحریریه زینو لایف</h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+          <!-- Person 1 -->
+          <div class="p-space-lg rounded-3xl bg-surface-container-lowest border border-outline-variant/30 text-center flex flex-col items-center">
+            <div class="w-24 h-24 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary text-3xl font-bold mb-space-md shadow-sm">
+              <span class="material-symbols-outlined text-4xl">person</span>
+            </div>
+            <h3 class="font-headline-sm font-bold text-on-surface">دکتر مریم رادمنش</h3>
+            <span class="text-xs text-secondary font-semibold mt-0.5">روانشناس بالینی و مدرس طرحواره</span>
+            <p class="text-xs text-on-surface-variant mt-2 leading-relaxed">پژوهشگر الگوهای فرزندپروری و بازسازی تله‌های کودکی، نویسنده و کارشناس ارشد پادکست‌های بالینی زینو.</p>
+          </div>
+
+          <!-- Person 2 -->
+          <div class="p-space-lg rounded-3xl bg-surface-container-lowest border border-outline-variant/30 text-center flex flex-col items-center">
+            <div class="w-24 h-24 rounded-full bg-[#D4A574]/20 flex items-center justify-center text-[#B27F47] text-3xl font-bold mb-space-md shadow-sm">
+              <span class="material-symbols-outlined text-4xl">person_book</span>
+            </div>
+            <h3 class="font-headline-sm font-bold text-on-surface">سهراب افشار</h3>
+            <span class="text-xs text-[#B27F47] font-semibold mt-0.5">پژوهشگر علوم رفتاری و مترجم</span>
+            <p class="text-xs text-on-surface-variant mt-2 leading-relaxed">مسئول ارزیابی و گزینش کتاب‌های مرجع نشر بین‌الملل و تنظیم خلاصه کتاب‌های صوتی توسعه فردی.</p>
+          </div>
+
+          <!-- Person 3 -->
+          <div class="p-space-lg rounded-3xl bg-surface-container-lowest border border-outline-variant/30 text-center flex flex-col items-center">
+            <div class="w-24 h-24 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container text-3xl font-bold mb-space-md shadow-sm">
+              <span class="material-symbols-outlined text-4xl">graphic_eq</span>
+            </div>
+            <h3 class="font-headline-sm font-bold text-on-surface">نگار حسینی</h3>
+            <span class="text-xs text-secondary font-semibold mt-0.5">مدیر تولید صدا و مستندات صوتی</span>
+            <p class="text-xs text-on-surface-variant mt-2 leading-relaxed">طراح ساختار روایی، انتخاب موسیقی‌های آرامش‌بخش فرکانسیک و کارگردانی صوتی اپیزودهای زینو.</p>
+          </div>
+
+          <!-- Person 4 -->
+          <div class="p-space-lg rounded-3xl bg-surface-container-lowest border border-outline-variant/30 text-center flex flex-col items-center">
+            <div class="w-24 h-24 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface text-3xl font-bold mb-space-md shadow-sm">
+              <span class="material-symbols-outlined text-4xl">send</span>
+            </div>
+            <h3 class="font-headline-sm font-bold text-on-surface">امین کاوه</h3>
+            <span class="text-xs text-on-surface-variant font-semibold mt-0.5">سرپرست ارتباطات تلگرام و فروش</span>
+            <p class="text-xs text-on-surface-variant mt-2 leading-relaxed">پاسخگوی مستقیم مخاطبان در ربات تلگرام، هماهنگی مشاوره‌های تلفنی و پیگیری لحظه‌ای مرسولات پستی.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Milestones Timeline -->
+      <section class="mb-space-3xl bg-surface-container-low p-space-2xl rounded-3xl border border-outline-variant/30">
+        <div class="text-center max-w-2xl mx-auto mb-space-2xl">
+          <span class="text-secondary font-bold text-xs">سیر تحول ما</span>
+          <h2 class="font-headline-xl font-bold text-on-surface mt-1">مسیر تکاملی زینو لایف</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-space-lg relative">
+          <div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col">
+            <span class="font-headline-sm font-extrabold text-secondary mb-1">۱۴۰۰</span>
+            <span class="font-label-md font-bold text-on-surface">جرقه‌ی آغاز</span>
+            <p class="text-xs text-on-surface-variant mt-2">انتشار اولین اپیزودهای پادکست زینو لایف و استقبال بی‌نظیر مخاطبان جویای بینش بالینی.</p>
+          </div>
+
+          <div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col">
+            <span class="font-headline-sm font-extrabold text-secondary mb-1">۱۴۰۱</span>
+            <span class="font-label-md font-bold text-on-surface">کتابخانه منتخب</span>
+            <p class="text-xs text-on-surface-variant mt-2">راه‌اندازی سرویس معرفی و ارسال کتاب‌های اصیل طرحواره‌درمانی و علوم رفتاری به سراسر کشور.</p>
+          </div>
+
+          <div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col">
+            <span class="font-headline-sm font-extrabold text-secondary mb-1">۱۴۰۲</span>
+            <span class="font-label-md font-bold text-on-surface">پکیج‌های جامع</span>
+            <p class="text-xs text-on-surface-variant mt-2">تلفیق محتوای مکتوب و صوتی در قالب پکیج‌های کاربردی رهایی از تله‌ها و شکل‌گیری خانواده ۵۰ هزار نفری.</p>
+          </div>
+
+          <div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col">
+            <span class="font-headline-sm font-extrabold text-secondary mb-1">۱۴۰۳</span>
+            <span class="font-label-md font-bold text-on-surface">اتصال هوشمند تلگرام</span>
+            <p class="text-xs text-on-surface-variant mt-2">رونمایی از بات رسمی @Zinoolifestorebot برای خرید ۲۴ ساعته، دریافت مشاوره فوری و پشتیبانی لحظه‌ای.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Telegram CTA -->
+      <section class="bg-primary-container text-on-primary rounded-3xl p-space-2xl text-center flex flex-col items-center shadow-xl">
+        <h2 class="font-headline-xl font-bold mb-space-xs">به جمع همراهان فرهیخته زینو لایف بپیوندید</h2>
+        <p class="font-body-md text-primary-fixed-dim max-w-xl mb-space-lg leading-relaxed">
+          هر روز صدها نفر با شنیدن پادکست‌ها و مطالعه کتاب‌های ما، زاویه نگاهشان را به زیست فردی خود بازتعریف می‌کنند.
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-space-md">
+          <a href="https://t.me/Zinoolifestorebot" target="_blank" rel="noopener noreferrer" class="px-space-xl py-space-sm rounded-full bg-secondary text-on-secondary font-bold flex items-center gap-2 hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all">
+            <span class="material-symbols-outlined">send</span>
+            <span>ورود به ربات تلگرام زینو لایف</span>
+          </a>
+          <a href="products.html" class="px-space-xl py-space-sm rounded-full bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-on-primary font-semibold transition-all">
+            مشاهده کتابخانه تخصصی
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Cart Drawer -->
+  <div id="cart-backdrop" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden" onclick="toggleCartDrawer(false)"></div>
+  <div class="fixed inset-y-0 left-0 w-full sm:w-96 bg-surface-container-lowest shadow-2xl z-50 transform -translate-x-full transition-transform duration-300 flex flex-col justify-between p-space-lg" id="quick-cart-drawer">
+    <div>
+      <div class="flex items-center justify-between pb-space-md border-b border-outline-variant/30">
+        <div class="flex items-center gap-space-xs">
+          <span class="material-symbols-outlined text-secondary text-[24px]">shopping_bag</span>
+          <span class="font-headline-sm text-headline-sm font-bold text-on-surface">سبد خرید شما</span>
+        </div>
+        <button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface transition-colors" onclick="toggleCartDrawer(false)" aria-label="بستن سبد">
+          <span class="material-symbols-outlined text-[18px]">close</span>
+        </button>
+      </div>
+      <div class="flex flex-col gap-space-sm mt-space-md max-h-[60vh] overflow-y-auto" id="cart-items-container"></div>
+    </div>
+    <div class="pt-space-md border-t border-outline-variant/30">
+      <div class="flex items-center justify-between mb-space-md">
+        <span class="font-label-md text-label-md text-on-surface-variant">مبلغ کل قابل پرداخت:</span>
+        <span class="font-headline-sm text-headline-sm font-bold text-on-surface" id="cart-total-price">۰ تومان</span>
+      </div>
+      <div class="flex flex-col gap-space-xs">
+        <button class="w-full py-space-sm px-space-md rounded-full bg-secondary text-on-secondary font-label-md text-label-md flex items-center justify-center gap-space-xs shadow-lg hover:bg-primary transition-all cursor-pointer" onclick="sendOrderToTelegram()">
+          <span class="material-symbols-outlined text-[20px]">send</span>
+          <span>تسویه‌حساب فوری با ربات تلگرام</span>
+        </button>
+        <button class="w-full py-space-xs text-center font-label-sm text-label-sm text-outline hover:text-on-surface transition-colors cursor-pointer" onclick="toggleCartDrawer(false)">
+          ادامه مرور در سایت
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="fixed bottom-6 right-6 z-50 bg-primary text-on-primary px-space-lg py-space-sm rounded-full shadow-2xl flex items-center gap-space-xs transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none" id="toast-notify">
+    <span class="material-symbols-outlined text-green-400 text-[20px]">check_circle</span>
+    <span class="font-label-md text-label-md" id="toast-text">آیتم به سبد خرید اضافه شد.</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w-full bg-surface-container-low py-space-3xl border-t border-outline-variant/20">
+    <div class="max-w-[1380px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-2xl text-right">
+      <div class="flex flex-col gap-space-md">
+        <span class="font-headline-md font-bold text-on-surface">زینو لایف</span>
+        <p class="font-body-sm text-on-surface-variant leading-relaxed">
+          مرجع تخصصی محتوای علمی روانشناسی، خودشناسی بالینی و کتاب‌های برگزیده رشد شخصی.
+        </p>
+      </div>
+      <div class="flex flex-col gap-space-sm">
+        <span class="font-headline-sm font-semibold text-on-surface">بخش‌های سایت</span>
+        <ul class="flex flex-col gap-space-xs font-body-sm text-on-surface-variant">
+          <li><a class="hover:text-secondary" href="index.html">صفحه اصلی</a></li>
+          <li><a class="hover:text-secondary" href="index.html#audio-experience">پادکست‌ها</a></li>
+          <li><a class="hover:text-secondary" href="products.html">کتابخانه تخصصی</a></li>
+          <li><a class="hover:text-secondary" href="about.html">درباره ما</a></li>
+          <li><a class="hover:text-secondary" href="contact.html">تماس و پشتیبانی</a></li>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-space-sm">
+        <span class="font-headline-sm font-semibold text-on-surface">سفارش مستقیم در تلگرام</span>
+        <p class="font-body-sm text-on-surface-variant">ارسال فوری مرسولات پستی به سراسر کشور با پشتیبانی ربات ۲۴ ساعته.</p>
+        <a class="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-white rounded-full text-xs font-bold w-fit hover:bg-primary" href="https://t.me/Zinoolifestorebot" target="_blank">
+          <span class="material-symbols-outlined text-sm">send</span>
+          <span>@Zinoolifestorebot</span>
+        </a>
+      </div>
+      <div class="flex flex-col gap-space-sm">
+        <span class="font-headline-sm font-semibold text-on-surface">خدمات مشتریان</span>
+        <p class="font-body-sm text-on-surface-variant">پشتیبانی تلفنی و پیام‌رسان همه روزه از ساعت ۹ الی ۲۱.</p>
+        <span class="text-xs text-outline">تضمین اصالت فیزیکی و چاپ تمیز کلیه کتاب‌ها</span>
+      </div>
+    </div>
+    <div class="max-w-[1380px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop mt-space-2xl pt-space-md border-t border-outline-variant/20 text-center text-xs text-outline">
+      تمامی حقوق متعلق به وبسایت زینو لایف (Zino Life) می‌باشد © ۱۴۰۳
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
